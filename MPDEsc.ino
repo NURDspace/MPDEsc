@@ -71,7 +71,7 @@ void loop() {
   led[0] = CRGB::White;
 
   if (!client.connect(MPD_HOST, MPD_PORT)) {
-    led[0] = CRGB::RED;
+    led[0] = CRGB::Red;
     return;
   }
     Serial.println("CLICK"); 
